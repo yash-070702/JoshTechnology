@@ -1,0 +1,205 @@
+.pricing-section-main{
+    background-color: #252B42;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.pricing-section{
+
+    width: 1100px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.pricing-title{
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.pricing-subtext{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin-top: 20px;
+    width: 490px;
+    text-align: center;
+}
+
+.pricing-components{
+    display: flex;
+    margin-top: -10px;
+    gap:40px;
+    align-items: center;
+}
+
+.pricing-component{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: 90px;
+    padding:2rem 1rem;
+    border-radius: 10px;
+    width: 285px;
+}
+
+.pricing-component-center{
+    background: #2091F9;
+    width: 285px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding:2rem 1rem;
+    border-radius: 10px;
+    margin-top: 90px;
+    padding-top: 60px;
+}
+
+.pricing-component-heading{
+font-size: 1rem;
+margin-top: 8px;
+text-align: center;
+}
+
+#pricing-component-subheading-center{
+    color: white;
+}
+.pricing-component-subheading{
+    margin-top: 1px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-inline: 50px; 
+    color: #374754d8;
+}
+
+.pricing-component-body-left{
+ 
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.pricing-component-body{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap:10px;
+}
+.pricing-component-body-right{
+    display:flex;
+    flex-direction: column;
+}
+
+.price-features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #252B42;
+    translate: 0px 5px;
+    gap: 22px;
+}
+#price-features-center{
+    color: white;
+}
+
+.pricing-component-button{
+    margin-top: 2.7rem;
+    padding: 0.8rem 3.4rem;
+    font-size: 1.3rem;
+    background-color: #2090f9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#pricing-component-button-center{
+    background: white;
+    color:#2090f9;
+    margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .pricing-section {
+      width: 95%;
+    }
+  
+    .pricing-components {
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .pricing-subtext {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .pricing-title {
+      font-size: 2.2rem;
+    }
+  
+    .pricing-subtext {
+      font-size: 1.3rem;
+    }
+  
+    .pricing-component,
+    .pricing-component-center {
+      width: 270px;
+    }
+  
+    .pricing-component-body-left {
+      font-size: 3rem;
+    }
+  
+    .pricing-component-button {
+      font-size: 1.1rem;
+      padding: 0.7rem 2.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .pricing-subtext {
+      font-size: 1.1rem;
+    }
+  
+    .pricing-component,
+    .pricing-component-center {
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .pricing-components {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .pricing-component-button {
+      font-size: 1rem;
+      padding: 0.6rem 2rem;
+    }
+  
+    .pricing-component-body-left {
+      font-size: 2.5rem;
+    }
+  
+    .price-features {
+      font-size: 0.85rem;
+    }
+  }
+  

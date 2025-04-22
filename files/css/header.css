@@ -1,0 +1,168 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-container {
+  background-image: url('../../assets/images/main_images/Rectangle\ 9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  letter-spacing: 1px;
+  justify-content:space-around;
+  
+  margin-top: 1rem;
+  margin-inline: auto;
+  align-items: center;
+ padding-top:1rem;
+ padding-inline: 2rem;
+  width: 1210px;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  font-size: 0.8rem;
+  gap: 2rem;
+  translate: 8px -5px;
+}
+
+.nav-logo{
+margin-left: -9rem;
+translate: -18px -5px;
+}
+.nav-icon{
+  width: 30px;
+  height: 30px;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  width: 700px; 
+  margin-inline: auto;
+  margin-top: 114px;
+  line-height: 1.2  ;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  translate: -10px -5px;
+}
+
+.hero-subtext {
+  font-size: 1.5rem;
+  width: 700px;
+  text-align: center;
+  padding-inline: 2rem;
+  margin-bottom: 2rem;
+  translate: 2px 2px;
+}
+
+.hero-button {
+  margin-top: 3rem;
+  padding: 0.65rem 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  background-color: #2090f98a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  
+}
+
+
+@media (max-width: 1210px) {
+  .navbar {
+    width: 95%;
+    padding-inline: 1rem;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    margin-left: 0;
+  }
+
+  .nav-left,
+  .nav-right {
+    gap: 1.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .nav-left,
+  .nav-right {
+
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .nav-logo {
+    margin-left: 0;
+  }
+
+  .hero {
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.2rem;
+    width: auto;
+  }
+
+  .hero-button {
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+  }
+
+  .hero-container{
+    width: 100vw;
+  }
+
+  .hero-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+
+
